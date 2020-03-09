@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+   
+
+.content {
+    width: 1000px;
+    font-family: monospace;
+    margin: 0 auto;
+}
+
+.manufacturer {
+    display: flex;
+    padding: 20px;
+}
+.logo {
+    width: 30%; 
+    display: flex;
+    justify-content: center; 
+}
+
+.logo_img {
+    width: 100px;
+    height: 100px;
+}
+
+.description {
+    width: 70%;
+   
+}
+
+.description_header {
+    margin-bottom: 20px;
+}
+
+.description_text {
+    text-align: justify;
+}
