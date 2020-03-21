@@ -37,3 +37,23 @@
 .description_text {
     text-align: justify;
 }
+
+.nav {
+    background-color: bisque;
+    width: 300px;
+    margin: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_element {
+    background-color: brown;
+    padding: 20px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.nav_element:hover {
+    background-color: darkblue;
+    color: darkorange;
+}
